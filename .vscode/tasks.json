@@ -23,18 +23,32 @@
             "args": [
                 "run", "build"
             ],
-            "isBuildCommand": true
+            "isBuildCommand": false
         },
         {
             "taskName": "clean",
             "args": [
                 "run", "clean"
             ]
-        },{
+        },
+        {
             "taskName": "rebuild",
             "args": [
                 "run", "rebuild"
             ]
+        },
+        {
+            "taskName": "bundle", 
+            "args": [
+                "run", "bundle"
+            ]
+        },
+        {
+            "taskName": "rebundle", 
+            "args": [
+                "run", "rebundle"
+            ],
+            "isBuildCommand": true
         }
     ]
 }
