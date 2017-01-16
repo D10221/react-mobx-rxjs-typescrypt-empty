@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "postinstall": "npm link webpack && npm link typescript",
     "test": "mocha built/tests.js",
     "build": "tsc -p .",
     "clean": "rimraf ./built",
