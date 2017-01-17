@@ -1,2 +1,2 @@
-install Typescript, webpack as global 
+install Typescript, webpack, electron as global 
 then: npm install 
