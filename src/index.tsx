@@ -1,9 +1,5 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import {AppView} from "./components/App";
 
-const App = () => (
-    <div>
-        <p>Hello</p>
-    </div>
-);
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(<AppView/>, document.getElementById("root"));
